@@ -1,0 +1,78 @@
+[
+  {
+    "company": "American Airlines",
+    "title": "Principal Engineer, IT DevOps",
+    "employment_date": "June 2020 – Present",
+    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using devops methodologies",
+    "bullets": [
+      "Develop overall strategic technical plan and create architecture proposals based on identified solution gaps",
+      "Create solutions with high level of innovation, cost effectiveness, high quality and faster time to market",
+      "Contribute to the overall strategy and manage complex issues within functional area of expertise",
+      "Serve as a Subject Matter Expert in Automation architecture",
+      "Collaborate with business and technical partners to identify and scope the opportunities, outline potential value and ROI, identify risks, benefits and constraints"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "title": "Network Automation Engineer",
+    "employment_date": "June 2019 – June 2020",
+    "description": "Worked in the Enterprise Network Automation organization architecting solutions for automation using devops methodologies",
+    "bullets": [
+      "Develop overall strategic technical plan and create architecture proposals based on identified solution gaps",
+      "Create solutions with high level of innovation, cost effectiveness, high quality and faster time to market",
+      "Contribute to the overall strategy and manage complex issues within functional area of expertise",
+      "Serve as a Subject Matter Expert in Automation architecture"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "title": "Senior IT Infrastructure Engineer",
+    "employment_date": "January 2018 – June 2019",
+    "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets.",
+    "bullets": [
+      "Plan, create, and document processes for new platforms",
+      "Evaluate and correct the integrity of existing systems",
+      "Plan, create, and implement automation between platforms",
+      "Maintain and administer multiple platforms including products from Riverbed, CA Technologies, Infoblox, and Gigamon",
+      "Troubleshoot network and network device issues with routing and administration",
+      "Implement data monitoring and collection equipment based on diagrams and run-books provided by architect"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "title": "IT Infrastructure Engineer",
+    "employment_date": "June 2016 – January 2018",
+    "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets.",
+    "bullets": [
+      "Implement data monitoring and collection equipment based on diagrams and run-books provided by architect",
+      "Plan, create, and document processes for existing platforms",
+      "Maintain and administer multiple platforms including products from Riverbed and CA Technologies",
+      "Troubleshoot common network and network device issues with routing and administration"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "title": "Associate IT Infrastructure Engineer (ADEPT)",
+    "employment_date": "June 2014 – May 2016",
+    "description": "The American Airlines Development Program for Technology (ADEPT) is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
+    "bullets": [
+      "Deploy functional networks",
+      "Configure and install various network devices and services",
+      "Maintain complete technical documentation",
+      "Resolve issues that tiers of support have escalated",
+      "Perform network maintenance and system upgrades"
+    ]
+  },
+  {
+    "company": "US Airways",
+    "title": "Statistical Analyst Intern",
+    "employment_date": "July 2012 – June 2014",
+    "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
+    "bullets": [
+      "Creation of performance metrics",
+      "System performance and capacity planning analysis",
+      "System troubleshooting and documentation of complex processes",
+      "Engagement of software vendors and internal development staff to resolve problems as necessary"
+    ]
+  }
+]

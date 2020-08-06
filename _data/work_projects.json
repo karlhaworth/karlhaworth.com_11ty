@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Infrastructure Orchestration Platform",
+    "date": "April 2018 - Present",
+    "problem": "All requests for infrastructure are done though a ticketing system and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
+    "solution": "An orchestration platform for infrastructure requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships amoung infrastructure objects.",
+    "technology_utilized": [
+      "Kubernetes",
+      "HTML",
+      "CSS",
+      "Python",
+      "jQuery",
+      "REST APIs",
+      "Websockets",
+      "Gunicorn App Server",
+      "MySql",
+      "Linux Server",
+      "Docker Containers",
+      "Jenkins CI/CD",
+      "Active Directory",
+      "Regular Expressions",
+      "SNMP",
+      "SMTP",
+      "Redis",
+      "Celery",
+      "RabbitMQ",
+      "S3 Object Storage",
+      "Cisco PnP",
+      "Nornir",
+      "Nginx"
+    ],
+    "description_bullets": [
+      "Set out the integration strategy",
+      "Define technical designs and implementation of system integrations/API Gateways",
+      "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
+      "Architect and develop with REST web API services",
+      "Create a mechanism for continuous integration and continuous delivery (CI/CD)",
+      "Communicate with other stakeholders/end users in the software development lifecycle",
+      "Work within a project management/agile delivery methodology in a leading role as part of a wider team",
+      "Create automated deployment mechanisms from code push",
+      "Documentation of solutions (e.g. data models, configurations, and setup)",
+      "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner",
+      "Requirements Analysis and Solution Architecture Design"
+    ]
+  },
+  {
+    "name": "H3C Firmware Upgrade Automation",
+    "date": "February 2019",
+    "problem": "Engineers have to manually upgrade the firmware on H3C devices as they are unsupported by all enterprise tools.",
+    "solution": "Create Perl script inside of CA Spectrum to push firmware with the expect module for an interactive automated session.",
+    "technology_utilized": [
+      "CA Spectrum",
+      "Perl Scripting",
+      "Expect Scripting",
+      "Regular Expressions",
+      "Comware OS (H3C)"
+    ],
+    "description_bullets": [
+      "Set out the integration strategy",
+      "Define technical designs",
+      "Communicate with other stakeholders/end users in the software development lifecycle",
+      "Requirements Analysis and Solution Architecture Design"
+    ]
+  },
+  {
+    "name": "Network Device Insourcing Automation",
+    "date": "March 2016 - June 2016",
+    "problem": "Migrate thousands of devices from an outsourced vendor to in-sourced.",
+    "solution": "Created plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
+    "technology_utilized": [
+      "CA Spectrum",
+      "Perl Scripting",
+      "SNMP",
+      "Comware OS (H3C)",
+      "SSH"
+    ],
+    "description_bullets": [
+      "Define technical requirements",
+      "Automate migration workflow",
+      "Optimize communication by implementing SNMP over SSH to reduce time to configure and reduce implementation failures",
+      "Develop new capabilities in existing toolsets to communicate with newly acquired unsupported devices",
+      "Communicate regularly with management regarding status",
+      "Work with platform administrators and engineering teams to implement and validate solutions"
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "fonts";
+body {
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.content {
+  font-size: $custom-font-size;
+}
+
+#header_wrap {
+  font-family: "Raleway";
+  font-weight: 300;
+
+  .number {
+    display: none;
+  }
+}
+
+#header_wrap,
+#bottom_wrap {
+  background: #2c3e50;
+  color: white;
+
+  a {
+    color: #1abc9c;
+
+    &:hover {
+      color: darken(#1abc9c, 10%);
+    }
+  }
+
+  hr {
+    @extend .border-white;
+    @extend .p-1;
+  }
+}
+
+.linkedin_logo {
+  fill: #1abc9c;
+
+  &:hover {
+    fill: darken(#1abc9c, 10%);
+  }
+}
+
+#about_wrap {
+  background-color: #2f2f2f;
+  color: white;
+
+  a {
+    color: #1abc9c;
+
+    &:hover {
+      color: darken(#1abc9c, 10%);
+    }
+  }
+}
+
+section {
+  @extend .py-3;
+
+  .section_title {
+    @extend .text-uppercase;
+    @extend h5;
+  }
+}
+#technology_bullets {
+    span {
+        @extend .mx-1;
+    }
+}
+#technical_skills_bullets {
+  .badge {
+    font-size: 100%;
+    @extend .m-1;
+  }
+}
+#about {
+    a {
+        @extend .ml-1;
+    }
+}
+
+footer {
+  background-color: #222;
+  color: white;
+
+  @extend .p-3;
+
+  #copyright {
+    font-size: 0.8em;
+  }
+
+  img {
+    max-height: 20px;
+  }
+
+  .made_with {
+    svg {
+      fill: #d5d5d5;
+      @extend .ml-2;
+    }
+  }
+}
+
+@media print {
+  body {
+    font-size: 0.9em;
+  }
+  .py-2 {
+    padding: 0px !important;
+  }
+  .number {
+    display: inline !important;
+  }
+  section {
+    padding: 2px !important;
+
+    .section_title {
+      font-size: 100%;
+    }
+  }
+  #technical_skills_bullets {
+    .badge {
+      font-size: 75% !important;
+      margin: 1px !important;
+    }
+  }
+  #header_wrap {
+    background: none;
+    color: black;
+
+    hr {
+      border-color: lighten(lightgray, 5%) !important;
+      margin: 1px !important;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+
+      .linkedin_logo {
+        fill: black;
+      }
+    }
+  }
+  #projects {
+    font-size: 0.93em !important;
+    .pb-3 {
+      padding-bottom: 0.25em;
+    }
+  }
+  #bottom_wrap {
+    background: none !important;
+    color: black;
+
+    hr {
+      border-color: lighten(lightgray, 5%) !important;
+      margin: 2px !important;
+    }
+  }
+  hr {
+    border-color: lighten(lightgray, 5%) !important;
+    margin: 2px !important;
+  }
+}
