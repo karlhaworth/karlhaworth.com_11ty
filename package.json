@@ -1,24 +1,16 @@
 {
   "name": "karlhaworth-com_eleventy",
   "version": "1.0.0",
-  "description": "npm install -g @11ty/eleventy npm install eleventy-plugin-sass --save npm install @quasibit/eleventy-plugin-sitemap --save",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/1cc341c5-8fbf-45f7-8b7d-8ad204a1a5a8/deploy-status)](https://app.netlify.com/sites/karlhaworth/deploys)",
   "main": ".eleventy.js",
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "node-sass": "^4.13.0",
-    "npm-run-all": "^4.1.5",
-    "onchange": "^6.1.0",
-    "popper.js": "^1.16.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
-    "onchange": "^6.1.0",
+    "onchange": "^7.0.2",
     "popper.js": "^1.16.1"
   },
   "scripts": {
@@ -30,7 +22,15 @@
     "watch:html": "eleventy --serve",
     "start": "npm run watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/karlhaworth/karlhaworth.com_11ty.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/karlhaworth/karlhaworth.com_11ty/issues"
+  },
+  "homepage": "https://gitlab.com/karlhaworth/karlhaworth.com_11ty#readme"
 }
