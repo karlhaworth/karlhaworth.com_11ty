@@ -6,7 +6,8 @@
 #### Technologies Utilized
 - [Bootstrap](https://getbootstrap.com)
 - [Sass](https://sass-lang.com)
-- [Jekyll](https://www.11ty.dev)
+- [Eleventy](https://www.11ty.dev)
+- [Netlify](https://netlify.com)
 
 #### RUN WATCH
 ```bash
@@ -20,16 +21,16 @@ $ npm run build
 
 ## BASE
 ```bash
-npm init -y
-npm install @11ty/eleventy --save-dev --save
-npm install node-sass --save-dev --save
-npm install onchange --save-dev --save
-npm install npm-run-all --save-dev --save
+$ npm init -y
+$ npm install @11ty/eleventy --save-dev --save
+$ npm install node-sass --save-dev --save
+$ npm install onchange --save-dev --save
+$ npm install npm-run-all --save-dev --save
 ```
 
 ## BOOTSTRAP
 ```bash
-npm install bootstrap --save --save-dev
-npm install jquery --save --save-dev
-npm install popper.js --save --save-dev
+$ npm install bootstrap --save --save-dev
+$ npm install jquery --save --save-dev
+$ npm install popper.js --save --save-dev
 ```
