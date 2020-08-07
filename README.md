@@ -19,17 +19,15 @@ $ npm run watch
 $ npm run build
 ```
 
-## BASE
+## INSTALL
 ```bash
+# BASE
 $ npm init -y
 $ npm install @11ty/eleventy --save-dev --save
 $ npm install node-sass --save-dev --save
 $ npm install onchange --save-dev --save
 $ npm install npm-run-all --save-dev --save
-```
-
-## BOOTSTRAP
-```bash
+# BOOTSTRAP
 $ npm install bootstrap --save --save-dev
 $ npm install jquery --save --save-dev
 $ npm install popper.js --save --save-dev
