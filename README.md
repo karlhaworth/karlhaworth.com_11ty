@@ -20,13 +20,11 @@ $ npm run build
 
 ## BASE
 ```bash
-npm init
-npm install @11ty/eleventy --save
-npm install eleventy-plugin-sass --save
-npm install @quasibit/eleventy-plugin-sitemap --save
-npm install node-sass --save-dev
-npm install onchange --save-dev
-npm install npm-run-all --save-dev
+npm init -y
+npm install @11ty/eleventy --save-dev --save
+npm install node-sass --save-dev --save
+npm install onchange --save-dev --save
+npm install npm-run-all --save-dev --save
 ```
 
 ## BOOTSTRAP
