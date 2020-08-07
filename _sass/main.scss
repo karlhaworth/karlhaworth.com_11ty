@@ -25,10 +25,10 @@ body {
   color: white;
 
   a {
-    color: #1abc9c;
+    color: $link-green;
 
     &:hover {
-      color: darken(#1abc9c, 10%);
+      color: darken($link-green, 10%);
     }
   }
 
@@ -39,10 +39,10 @@ body {
 }
 
 .linkedin_logo {
-  fill: #1abc9c;
+  fill: $link-green;
 
   &:hover {
-    fill: darken(#1abc9c, 10%);
+    fill: darken($link-green, 10%);
   }
 }
 
@@ -51,10 +51,10 @@ body {
   color: white;
 
   a {
-    color: #1abc9c;
+    color: $link-green;
 
     &:hover {
-      color: darken(#1abc9c, 10%);
+      color: darken($link-green, 10%);
     }
   }
 }
