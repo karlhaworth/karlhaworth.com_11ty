@@ -102,167 +102,19 @@ permalink: "robotics/"
     </div>
   </div>
   <div class="row">
+    {% for image in robotics.imgs %}
     <div class="col-lg-4" style="text-align: center;">
       <a
         title="Preliminary Inside View"
-        href="/assets/robotics/pictures/assets/robotics-first.jpg"
+        href="/assets/robotics/pictures/{{ image.img }}" 
         ><br />
         <img
           alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-1.jpg"
+          src="/assets/robotics/pictures/{{ image.thumbnail }}"
         /><br />
       </a>
     </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Before Competition"
-        href="/assets/robotics/pictures/assets/robotics-2.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-2.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Final Internal View"
-        href="/assets/robotics/pictures/assets/robotics-4.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-4.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Setting the Sumo Robot on the
-                competition floor"
-        href="/assets/robotics/pictures/assets/robotics-5.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-5.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Robot at the Haggerty Center's NASA
-                exhibit"
-        href="/assets/robotics/pictures/assets/robotics-6.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-6.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Robot at the Haggerty Center's NASA
-                exhibit"
-        href="/assets/robotics/pictures/assets/robotics-7.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-7.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Robot at the Haggerty Center's NASA
-                exhibit"
-        href="/assets/robotics/pictures/assets/robotics-8.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-8.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Electrical Components Top View"
-        href="/assets/robotics/pictures/assets/robotics-9.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-9.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Treads and Motors"
-        href="/assets/robotics/pictures/assets/robotics-10.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-10.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="The team with sponsor Bill Marsh Jr."
-        href="/assets/robotics/pictures/assets/robotics-11.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-11.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="The team with sponsor and electrical
-                engineer Mark Perry"
-        href="/assets/robotics/pictures/assets/robotics-12.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-12.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="The team with both of our main
-                sponsors"
-        href="/assets/robotics/pictures/assets/robotics-13.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-13.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="The Team | Karl Haworth &amp; Jack
-                Kerby-Miller"
-        href="/assets/robotics/pictures/assets/robotics-3.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-3.jpg"
-        /><br />
-      </a>
-    </div>
-    <div class="col-lg-4" style="text-align: center;">
-      <a
-        title="Electronics Assembly"
-        href="/assets/robotics/pictures/assets/robotics-14.jpg"
-        ><br />
-        <img
-          alt=""
-          src="/assets/robotics/pictures/robotics_thumbnail-14.jpg"
-        /><br />
-      </a>
-    </div>
+    {% endfor %}
   </div>
   <div class="row" style="padding-top: 20px;">
     <div class="col-md-12 text-center">
