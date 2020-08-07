@@ -1,0 +1,27 @@
+<section class="row">
+    <div class="col-md-2 section_title">
+        Awards
+    </div>
+    <div class="col-md-10">
+        {% for recognition in awards %}
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>{{ recognition.awardName }}</strong>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    {{ recognition.description }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    {{ recognition.presentedBy }}
+                </div>
+                <div class="col-md-3 text-right">
+                    <span class="badge badge-secondary">{{ recognition.date }}</span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

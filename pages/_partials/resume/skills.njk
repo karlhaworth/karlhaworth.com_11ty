@@ -1,0 +1,10 @@
+<section class="row">
+    <div class="col-md-2 section_title">
+        Technical Skills
+    </div>
+    <div class="col-md-10" id="technical_skills_bullets">
+        {% for skill in technical_skills %}
+            <span class="badge badge-success">{{ skill }}</span>
+        {% endfor %}
+    </div>
+</section>

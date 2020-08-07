@@ -1,0 +1,32 @@
+<section class="row">
+    <div class="col-md-2 section_title">
+        Notable Recognition
+    </div>
+    <div class="col-md-10">
+        {% for recognition in notable_recognition %}
+            {% if
+            loop.index == 4 %}
+                <div id="demo" class="collapse d-print-none">
+                {% endif %}
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ recognition.comments }}
+                    </div>
+                </div>
+                <div class="row pb-2">
+                    <div class="col-md-9 text-secondary">
+                        <i>
+                            -
+                            {{ recognition.role }}</i>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <span class="badge badge-secondary">{{ recognition.date }}</span >
+                    </div>
+                </div>
+                {% if loop.last %}
+                </div>
+            {% endif %}
+        {% endfor %}
+        <a href="#demo" class="d-print-none" data-toggle="collapse">+ Show More</a >
+    </div>
+</section>
