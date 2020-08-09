@@ -30,7 +30,7 @@ tags: sitemap
       4th place overall nationwide at the National Robotics Challenge in April 2010<br/>
     </div>
     <div class="col-md-12" style="line-height: 1.5;">
-      <img class="alignleft size-full float-left m-4" style="border: 0px none;" title="Robot" alt="" src="/assets/robotics/pictures/Robot.png" width="240" height="228"/>
+      <img class="alignleft size-full float-left m-4" style="border: 0px none;" title="Robot" alt="" src="{{ rootPath }}assets/robotics/pictures/Robot.png" width="240" height="228"/>
       <p>
         As part of their senior project at the Manufacturing Technology Academy, Karl Haworth and Jack Kerby-Miller designed and built a robot to compete against other schools and tech groups in the heavyweight Sumo Robot Competition at the National Robotics Challenge, April 15th – 17th in Marion, Ohio. Over a period of seven months, the team followed the Plan Do Study Act method for continuous improvement to create their entry. They began by understanding the challenges intrinsic to the Sumo Robot Competition, specifically, reading the rules and synthesizing personal experience.
       </p>
@@ -47,21 +47,21 @@ tags: sitemap
   </div>
   <div class="row">
     <div class="col-md-12 text-center">
-      <img class="alignnone img-fluid" title="Solid Works CAD Drawing" alt="" src="/assets/robotics/Drawing.png" width="630" height="487"/>
+      <img class="alignnone img-fluid" title="Solid Works CAD Drawing" alt="" src="{{ rootPath }}assets/robotics/Drawing.png" width="630" height="487"/>
     </div>
   </div>
   <div class="row">
     {% for image in robotics.imgs %}
       <div class="col-lg-4" style="text-align: center;">
-        <a title="{{ image.title }}" href="/assets/robotics/pictures/{{ image.img }}" target="_blank"><br/>
-          <img alt="" src="/assets/robotics/pictures/{{ image.thumbnail }}"/><br/>
+        <a title="{{ image.title }}" href="{{ rootPath }}assets/robotics/pictures/{{ image.img }}" target="_blank"><br/>
+          <img alt="" src="{{ rootPath }}assets/robotics/pictures/{{ image.thumbnail }}"/><br/>
         </a>
       </div>
     {% endfor %}
   </div>
   <div class="row" style="padding-top: 20px;">
     <div class="col-md-12 text-center">
-      <embed src="/assets/robotics/heavy-weight.pdf" type="application/pdf" width="60%" height="700px"/>
+      <embed src="{{ rootPath }}assets/robotics/heavy-weight.pdf" type="application/pdf" width="60%" height="700px"/>
     </div>
   </div>
   <div class="col-sm-12">

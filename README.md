@@ -31,4 +31,8 @@ $ npm install npm-run-all --save-dev --save
 $ npm install bootstrap --save --save-dev
 $ npm install jquery --save --save-dev
 $ npm install popper.js --save --save-dev
+# PUPPETEER SCREENSHOTS
+$ npm install puppeteer --save --save-dev
 ```
+
+![Screenshot](karl_haworth_resume.png)
