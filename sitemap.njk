@@ -12,7 +12,8 @@ eleventyExcludeFromCollections: true
         <url>
             <loc>{{ site.url }}{{ page.url | url }}</loc>
             <lastmod>{{ page.date.toISOString() }}</lastmod>
-            <priority>1.00</priority>
+            <priority>1.0</priority>
+            <changefreq>weekly</changefreq>
         </url>
     {% endfor %}
 </urlset>
