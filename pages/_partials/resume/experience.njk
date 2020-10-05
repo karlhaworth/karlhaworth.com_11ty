@@ -4,29 +4,31 @@
     </div>
     <div class="col-md-10">
         {% for experience in experience %}
-            <div class="row">
-                <div class="col-md-4">
-                    <strong>{{ experience.title }}</strong>
+            <div itemscope itemtype="http://schema.org/Organization">
+                <div class="row">
+                    <div class="col-md-4">
+                        <strong itemprop="jobTitle">{{ experience.title }}</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="badge badge-primary" itemprop="name">{{ experience.company }}</span>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <span class="badge badge-secondary">{{ experience.employment_date }}</span >
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <span class="badge badge-primary">{{ experience.company }}</span>
+                <div class="row">
+                    <div class="col-md-12" itemprop="description">
+                        {{ experience.description }}
+                    </div>
                 </div>
-                <div class="col-md-4 text-right">
-                    <span class="badge badge-secondary">{{ experience.employment_date }}</span >
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    {{ experience.description }}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="m-0">
-                        {% for bullet in experience.bullets %}
-                            <li>{{ bullet }}</li>
-                        {% endfor %}
-                    </ul>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="m-0">
+                            {% for bullet in experience.bullets %}
+                                <li>{{ bullet }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </div>
         {% endfor %}
