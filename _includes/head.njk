@@ -8,7 +8,9 @@
         <link rel="icon" type="image/png" href="{{ rootPath }}assets/favicon.png"/>
 
         <link rel="stylesheet" href="{{ rootPath }}assets/css/main.css?v=0.00003">
-        <link rel="stylesheet" href="{{ rootPath }}node_modules/lightbox2/dist/css/lightbox.min.css">
+        {% if title === "Robotics" %}
+            <link rel="stylesheet" href="{{ rootPath }}node_modules/lightbox2/dist/css/lightbox.min.css">
+        {% endif %}
 
         <meta name="description" content="{{ metaDescription }}">
         <meta name="revisit-after" content="7 days">
