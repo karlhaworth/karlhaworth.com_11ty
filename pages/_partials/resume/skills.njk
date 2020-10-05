@@ -1,13 +1,10 @@
 <section class="row">
-    <div itemscope itemtype="http://schema.org/ItemList">
-        <meta itemprop="itemListOrder" content="Descending" />
-        <div class="col-md-2">
-            <div class="section_title" itemprop="itemListElement">Technical Skills</div>
-        </div>
-        <div class="col-md-10" id="technical_skills_bullets">
-            {% for skill in technical_skills %}
-                <span class="badge badge-success" itemprop="itemListElement">{{ skill }}</span>
-            {% endfor %}
-        </div>
+    <div class="col-md-2">
+        <div class="section_title">Technical Skills</div>
+    </div>
+    <div class="col-md-10" id="technical_skills_bullets">
+        {% for skill in technical_skills %}
+            <span class="badge badge-success">{{ skill }}</span>
+        {% endfor %}
     </div>
 </section>
