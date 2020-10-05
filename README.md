@@ -33,6 +33,8 @@ $ npm install jquery --save --save-dev
 $ npm install popper.js --save --save-dev
 # PUPPETEER SCREENSHOTS
 $ npm install puppeteer --save --save-dev
+# LIGHTBOX
+$ npm install lightbox2 --save --save-dev
 ```
 
 ![Screenshot](karl_haworth_resume.png)
