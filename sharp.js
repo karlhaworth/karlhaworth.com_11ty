@@ -3,6 +3,11 @@ const fs = require('fs');
 
 const folder = 'assets/technologies/';
 
+var mkDir = 'assets/technologies/retina/';
+if (!fs.existsSync(mkDir)){
+    fs.mkdirSync(mkDir);
+}
+
 fs.readdirSync(folder).forEach(file => {
   if(file.includes('.png')) {
         filename = file.slice(0, -4)
