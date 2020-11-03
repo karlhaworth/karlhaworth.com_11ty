@@ -19,7 +19,7 @@
     "retinajs": "^2.1.3"
   },
   "scripts": {
-    "build": "npm-run-all build:screenshots build:retina_images build:css build:html",
+    "build": "npm-run-all build:retina_images build:css build:html build:screenshots",
     "build:css": "node-sass --output ./_site/assets/css/ ./_sass/main.scss",
     "build:html": "eleventy",
     "build:retina_images": "node sharp.js",
