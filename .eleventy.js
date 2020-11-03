@@ -5,4 +5,5 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy( "node_modules/jquery/dist/" );
   eleventyConfig.addPassthroughCopy( "node_modules/popper.js/dist/" );
   eleventyConfig.addPassthroughCopy( "node_modules/lightbox2/dist/" );
+  eleventyConfig.addPassthroughCopy( "node_modules/retinajs/dist/" );
 };
