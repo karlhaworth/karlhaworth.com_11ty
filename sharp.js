@@ -1,9 +1,9 @@
 const sharp = require('sharp');
 const fs = require('fs');
 
-const folder = 'assets/technologies/';
+const folder = './assets/technologies/';
 
-var mkDir = 'assets/technologies/retina/';
+var mkDir = './assets/technologies/retina/';
 if (!fs.existsSync(mkDir)){
     fs.mkdirSync(mkDir);
 }
