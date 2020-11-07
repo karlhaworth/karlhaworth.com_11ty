@@ -24,26 +24,12 @@ fs.readdirSync(folder).forEach(file => {
   }
 });
 
-fs.readdir('./', function (err, files) {
-    //handling error
-    if (err) {
-        return console.log('Unable to scan directory: ' + err);
-    } 
-    //listing all files using forEach
-    files.forEach(function (file) {
-        // Do whatever you want to do with the file
-        console.log(file); 
-    });
-});
-
-fs.readdir(mkDir, function (err, files) {
-    //handling error
-    if (err) {
-        return console.log('Unable to scan directory: ' + err);
-    } 
-    //listing all files using forEach
-    files.forEach(function (file) {
-        // Do whatever you want to do with the file
-        console.log(file); 
-    });
-});
+sharp('./assets/karl_haworth.jpg')
+    .resize({ height: 100 })
+    .toFile('./assets/karl_haworth_resized.jpg');
+sharp('./assets/karl_haworth.jpg')
+    .resize({ height: 200 })
+    .toFile('./assets/karl_haworth_resized@2x.jpg');
+    sharp('./assets/karl_haworth.jpg')
+        .resize({ height: 200 })
+        .toFile('./assets/karl_haworth_resized@3x.jpg');
