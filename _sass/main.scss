@@ -86,6 +86,11 @@ section {
     a {
         @extend .ml-1;
     }
+
+    .aboutImg {
+      max-width: 100px;
+      max-height: 100px;
+    }
 }
 
 footer {
