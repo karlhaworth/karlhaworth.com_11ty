@@ -66,17 +66,16 @@ body {
 section {
   @extend .py-3;
 
-  .section_title {
+  h5 {
     @extend .text-uppercase;
-    @extend h5;
   }
 }
-#technology_bullets {
+.technology_bullets {
     span {
         @extend .mx-1;
     }
 }
-#technical_skills_bullets {
+.technical_skills_bullets {
   .badge {
     font-size: 100%;
     @extend .m-1;
@@ -133,14 +132,14 @@ footer {
     padding: 2px !important;
     page-break-inside: avoid;
 
-    .section_title {
+    h5 {
       font-size: 100%;
       border-left: 4px #2F7BF6 solid;
       padding-left: 10px;
       font-weight: 700;
     }
   }
-  #technical_skills_bullets {
+  .technical_skills_bullets {
     .badge {
       font-size: 75% !important;
       margin: 2px !important;

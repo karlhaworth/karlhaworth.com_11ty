@@ -1,6 +1,6 @@
 <section class="row" id="projects">
     <div class="col-md-2">
-        <div class="section_title">Projects</div>
+        <h5>Projects</h5>
     </div>
     <div class="col-md-10">
         {% for project in work_projects %}
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12" id="technology_bullets">
+                <div class="col-md-12" class="technology_bullets">
                     {% for technology in project.technology_utilized %}
                         <span class="badge badge-light">{{ technology }}</span>
                     {% endfor %}
