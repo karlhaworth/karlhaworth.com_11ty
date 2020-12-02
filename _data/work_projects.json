@@ -3,7 +3,7 @@
     "name": "Infrastructure Orchestration Platform",
     "date": "April 2018 - June 2020",
     "problem": "All requests for infrastructure are done though a ticketing system and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
-    "solution": "An orchestration platform for infrastructure requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships amoung infrastructure objects.",
+    "solution": "An orchestration platform for infrastructure requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
     "technology_utilized": [
       "Kubernetes",
       "HTML",
