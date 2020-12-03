@@ -16,7 +16,7 @@ const { PDFDocument, StandardFonts } = require('pdf-lib');
   await page.pdf({
     path: '_site/assets/karl_haworth_resume.pdf',
     printBackground: true,
-    format: 'A4',
+    format: 'letter',
     margin: {
           top: "30px",
           left: "0px",
