@@ -1,5 +1,7 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
+const fs = require('fs');
+const { PDFDocument, StandardFonts } = require('pdf-lib');
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -24,4 +26,16 @@ const path = require('path');
   });
 
   await browser.close();
+
+  const readPdf = fs.readFileSync(`_site/assets/karl_haworth_resume.pdf`);
+  const pdfDoc = await PDFDocument.load(readPdf, { 
+    updateMetadata: true 
+  })
+  pdfDoc.setTitle('Karl Haworth - Resume')
+  pdfDoc.setAuthor('Karl J Haworth')
+  pdfDoc.setProducer('KH PDF App 9000 🤖')
+  pdfDoc.setSubject('Karl Haworth Resume')
+  pdfDoc.setCreator('karlhaworth.com (https://karlhaworth.com)')
+  const pdfBytes = await pdfDoc.save()
+  fs.writeFileSync('_site/assets/karl_haworth_resume.pdf', pdfBytes);
 })();
