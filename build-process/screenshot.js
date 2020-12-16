@@ -10,11 +10,11 @@ const { PDFDocument, StandardFonts } = require('pdf-lib');
     ],
   });
   const page = await browser.newPage();
-  await page.goto(`file:${path.join(__dirname, '_site/index.html')}`);
+  await page.goto(`file:${path.join(__dirname, '../_site/index.html')}`);
   await page._client.send('Emulation.clearDeviceMetricsOverride');
   await page.screenshot({path: 'karl_haworth_resume.png'});
   await page.pdf({
-    path: '_site/assets/karl_haworth_resume.pdf',
+    path: './_site/assets/karl_haworth_resume.pdf',
     printBackground: true,
     format: 'letter',
     margin: {
@@ -27,7 +27,7 @@ const { PDFDocument, StandardFonts } = require('pdf-lib');
 
   await browser.close();
 
-  const readPdf = fs.readFileSync(`_site/assets/karl_haworth_resume.pdf`);
+  const readPdf = fs.readFileSync(`./_site/assets/karl_haworth_resume.pdf`);
   const pdfDoc = await PDFDocument.load(readPdf, { 
     updateMetadata: true 
   })
@@ -37,5 +37,5 @@ const { PDFDocument, StandardFonts } = require('pdf-lib');
   pdfDoc.setSubject('Karl Haworth Resume')
   pdfDoc.setCreator('karlhaworth.com (https://karlhaworth.com)')
   const pdfBytes = await pdfDoc.save()
-  fs.writeFileSync('_site/assets/karl_haworth_resume.pdf', pdfBytes);
+  fs.writeFileSync('./_site/assets/karl_haworth_resume.pdf', pdfBytes);
 })();
