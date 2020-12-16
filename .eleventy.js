@@ -22,11 +22,6 @@ module.exports = function (eleventyConfig) {
   assets.forEach(asset => eleventyConfig.addPassthroughCopy(asset));
   // Configuration
   return {
-      dir: {
-          input: '_data',
-          includes: '_includes',
-          output: '_site'
-      },
       pathPrefix: '/',
       dataTemplateEngine: 'njk',
       htmlTemplateEngine: 'njk',
