@@ -3,32 +3,27 @@
   "version": "1.0.0",
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/1cc341c5-8fbf-45f7-8b7d-8ad204a1a5a8/deploy-status)](https://app.netlify.com/sites/karlhaworth/deploys)",
   "main": ".eleventy.js",
-  "dependencies": {
-    "sharp": "^0.26.2"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "lightbox2": "^2.11.3",
-    "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
+    "sass": "^1.26.3",
+    "fibers": "^5.0.0",
+    "fs-extra": "^8.1.0",
     "onchange": "^7.0.2",
     "pdf-lib": "^1.12.0",
     "popper.js": "^1.16.1",
     "puppeteer": "^5.3.1",
-    "retinajs": "^2.1.3"
+    "retinajs": "^2.1.3",
+    "sharp": "^0.26.2"
   },
   "scripts": {
-    "build": "npm-run-all build:retina_images build:css build:html build:screenshots",
-    "build:css": "node-sass --output ./_site/assets/css/ ./_sass/main.scss",
+    "build": "npm-run-all build:html build:screenshots",
     "build:html": "eleventy",
-    "build:retina_images": "node sharp.js",
-    "build:screenshots": "node screenshot.js",
-    "watch": "npm-run-all --parallel watch:css watch:html",
-    "watch:css": "node-sass --watch --output ./_site/assets/css/ ./_sass/main.scss",
-    "watch:html": "eleventy --serve",
-    "start": "npm run watch"
+    "build:screenshots": "node build-process/screenshot.js",
+    "start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
