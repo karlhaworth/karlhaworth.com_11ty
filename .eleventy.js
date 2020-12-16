@@ -1,6 +1,7 @@
 // Utilities
 const sassProcess = require('./build-process/sass-process');
 const imgProcess = require('./build-process/sharp');
+const screenshotProcess = require('./build-process/screenshot');
 
 module.exports = function (eleventyConfig) {
   // Sass pre-processing
@@ -20,6 +21,10 @@ module.exports = function (eleventyConfig) {
       'node_modules/retinajs/dist/'
   ]
   assets.forEach(asset => eleventyConfig.addPassthroughCopy(asset));
+
+  eleventyConfig.on('afterBuild', () => {
+    screenshotProcess()
+  });
   // Configuration
   return {
       pathPrefix: '/',
