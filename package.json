@@ -4,7 +4,7 @@
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/1cc341c5-8fbf-45f7-8b7d-8ad204a1a5a8/deploy-status)](https://app.netlify.com/sites/karlhaworth/deploys)",
   "main": ".eleventy.js",
   "scripts": {
-    "clean": "npx del _site",
+    "clean": "npx del dist",
     "build": "eleventy",
     "start": "eleventy --serve"
   },

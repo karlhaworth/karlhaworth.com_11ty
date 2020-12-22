@@ -1,8 +1,8 @@
 const sharp = require("sharp");
 const fs = require("fs");
 
-const folder = "./assets/technologies/";
-var mkDir = "./_site/assets/technologies/retina/";
+const folder = "./src/assets/technologies/";
+var mkDir = "./dist/assets/technologies/retina/";
 
 module.exports = function () {
   fs.readdirSync(folder).forEach((file) => {
@@ -24,13 +24,13 @@ module.exports = function () {
     }
   });
 
-  sharp("./assets/karl_haworth.jpg")
+  sharp("./src/assets/karl_haworth.jpg")
     .resize({ height: 100 })
-    .toFile("./_site/assets/karl_haworth_resized.jpg");
-  sharp("./assets/karl_haworth.jpg")
+    .toFile("./dist/assets/karl_haworth_resized.jpg");
+  sharp("./src/assets/karl_haworth.jpg")
     .resize({ height: 200 })
-    .toFile("./_site/assets/karl_haworth_resized@2x.jpg");
-  sharp("./assets/karl_haworth.jpg")
+    .toFile("./dist/assets/karl_haworth_resized@2x.jpg");
+  sharp("./src/assets/karl_haworth.jpg")
     .resize({ height: 200 })
-    .toFile("./_site/assets/karl_haworth_resized@3x.jpg");
+    .toFile("./dist/assets/karl_haworth_resized@3x.jpg");
 };

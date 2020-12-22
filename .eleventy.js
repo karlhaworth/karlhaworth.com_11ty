@@ -5,15 +5,15 @@ const screenshotProcess = require("./build/screenshot");
 
 module.exports = function (eleventyConfig) {
   // Sass pre-processing
-  sassProcess("./_sass/main.scss", "./_site/assets/css/main.css");
+  sassProcess("./src/_sass/main.scss", "./dist/assets/css/main.css");
   eleventyConfig.setBrowserSyncConfig({
-    files: "./_site/assets/css/main.css",
+    files: "./dist/assets/css/main.css",
   });
   // Img pre-processing
   imgProcess();
   // Passthrough copy
   const assets = [
-    "assets",
+    {"src/assets": "assets"},
     "node_modules/bootstrap/dist/",
     "node_modules/jquery/dist/",
     "node_modules/popper.js/dist/",
@@ -27,6 +27,10 @@ module.exports = function (eleventyConfig) {
   });
   // Configuration
   return {
+    dir: {
+      input: 'src',
+      output: 'dist',
+    },
     pathPrefix: "/",
     dataTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
