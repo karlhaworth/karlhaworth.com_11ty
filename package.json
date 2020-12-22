@@ -5,7 +5,9 @@
   "main": ".eleventy.js",
   "scripts": {
     "clean": "npx del dist",
-    "build": "eleventy",
+    "build": "npm-run-all clean -p build:*",
+    "build:eleventy": "eleventy",
+    "build:webpack": "webpack",
     "start": "npm-run-all clean -p start:*",
     "start:eleventy": "eleventy --serve",
     "start:webpack": "webpack --watch"
