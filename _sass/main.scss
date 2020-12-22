@@ -71,9 +71,9 @@ section {
   }
 }
 .technology_bullets {
-    span {
-        @extend .mx-1;
-    }
+  span {
+    @extend .mx-1;
+  }
 }
 .technical_skills_bullets {
   .badge {
@@ -82,14 +82,14 @@ section {
   }
 }
 #about {
-    a {
-        @extend .ml-1;
-    }
+  a {
+    @extend .ml-1;
+  }
 
-    .aboutImg {
-      max-width: 100px;
-      max-height: 100px;
-    }
+  .aboutImg {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
 
 footer {
@@ -118,7 +118,7 @@ footer {
   body {
     font-size: 1em;
   }
-  a { 
+  a {
     color: black;
     text-decoration: none !important;
   }
@@ -134,7 +134,7 @@ footer {
 
     h5 {
       font-size: 100%;
-      border-left: 4px #2F7BF6 solid;
+      border-left: 4px #2f7bf6 solid;
       padding-left: 10px;
       font-weight: 700;
     }
