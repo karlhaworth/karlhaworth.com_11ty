@@ -1,7 +1,7 @@
 // Utilities
-const sassProcess = require("./build-process/sass-process");
-const imgProcess = require("./build-process/sharp");
-const screenshotProcess = require("./build-process/screenshot");
+const sassProcess = require("./build/sass-process");
+const imgProcess = require("./build/sharp");
+const screenshotProcess = require("./build/screenshot");
 
 module.exports = function (eleventyConfig) {
   // Sass pre-processing
