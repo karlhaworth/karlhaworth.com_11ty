@@ -5,15 +5,15 @@
   "main": ".eleventy.js",
   "scripts": {
     "clean": "npx del dist",
-    "build": "npm-run-all clean -p build:*",
+    "build": "npm-run-all clean --parallel build:*",
     "build:eleventy": "eleventy",
-    "build:webpack": "webpack",
-    "start": "npm-run-all clean -p start:*",
+    "build:webpack": "webpack --mode production",
+    "start": "npm-run-all clean --parallel start:*",
     "start:eleventy": "eleventy --serve",
-    "start:webpack": "webpack --watch"
+    "start:webpack": "webpack --mode development --watch"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy": "0.11.0",
     "bootstrap": "^4.5.2",
     "del-cli": "^3.0.0",
     "fibers": "^5.0.0",
