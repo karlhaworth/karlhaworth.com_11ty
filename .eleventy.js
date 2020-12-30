@@ -4,6 +4,7 @@ const imgProcess = require("./build/sharp");
 const screenshotProcess = require("./build/screenshot");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setWatchThrottleWaitTime(1000);
   // Sass pre-processing
   sassProcess("./src/_sass/main.scss", "./dist/assets/css/main.css");
   eleventyConfig.setBrowserSyncConfig({
