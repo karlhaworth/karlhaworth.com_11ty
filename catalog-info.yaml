@@ -1,0 +1,9 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: karlhaworth.com_11ty
+spec:
+  type: other
+  lifecycle: unknown
+  squad: unknown
