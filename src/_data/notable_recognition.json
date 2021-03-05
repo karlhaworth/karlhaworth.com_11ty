@@ -15,6 +15,11 @@
     "comments": "SELFLESS: Karl has been helping multiple infrastructure teams in their automation and self service journey. He provides training, shares his knowledge to boost the teams to get started on development with Runway. This is on top of his own development commitment. But he never push the other teams away when they need him."
   },
   {
+    "date": "March 1, 2021",
+    "role": "IT Data Warehousing Manager",
+    "comments": "Karl, I just want to thank you for all you do to enable the DEA group move forward on our automation efforts. You are a great technical leader, so patient, and such a good mentor to my team. I'm glad to have you on our squad! #selfless #passionate"
+  },
+  {
     "date": "July 19, 2019",
     "role": "Vice President (VP) Enterprise Technology Services",
     "comments": "Karl, Great automation demo this week, you rock!"
@@ -33,6 +38,11 @@
     "date": "December 11, 2020",
     "role": "Associate Developer, IT Applications",
     "comments": "Karl, thanks for all your help with the Data Lake Review Page effort over the past few months! You've been great at understanding what my team needs and advising me on how to design new features on Runway. You know the architecture of the Runway system very well. Also, I really appreciate that you are readily available to help me with technical issues when I try to finalize code (e.g. test cases not working, Git problems). I look forward to continuing to work with you on functional access."
+  },
+  {
+    "date": "March 2, 2021",
+    "role": "Associate Developer, IT Applications",
+    "comments": "Karl, I appreciate all your help with the Azure service principal access over the past several weeks! The API calls, especially, were very difficult to write and debug--thanks for guiding me through that."
   },
   {
     "date": "December 22, 2020",
