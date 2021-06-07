@@ -6,7 +6,21 @@ const { PDFDocument, StandardFonts } = require("pdf-lib");
 module.exports = function () {
   (async () => {
     const browser = await puppeteer.launch({
-      args: ["--window-size=1280,800"],
+      args: [
+        "--window-size=1280,800",
+        '--disable-gpu',
+        '--renderer',
+        '--no-sandbox',
+        '--no-service-autorun',
+        '--no-experiments',
+        '--no-default-browser-check',
+        '--disable-dev-shm-usage',
+        '--disable-setuid-sandbox',
+        '--no-first-run',
+        '--no-zygote',
+        '--single-process',
+        '--disable-extensions',
+      ],
     });
     const page = await browser.newPage();
     await page.goto(`file:${path.join(__dirname, "../dist/index.html")}`);
