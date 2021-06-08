@@ -31,9 +31,7 @@
     ],
     "description_bullets": [
       "Set out the integration strategy",
-      "Define technical designs and implementation of system integrations/API Gateways",
       "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
-      "Architect and develop with REST web API services",
       "Create a mechanism for continuous integration and continuous delivery (CI/CD)",
       "Communicate with other stakeholders/end users in the software development lifecycle",
       "Work within a project management/agile delivery methodology in a leading role as part of a wider team",

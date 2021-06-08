@@ -22,9 +22,7 @@
     "bullets": [
       "Develop overall strategic technical plan and create architecture proposals based on identified solution gaps",
       "Create solutions with high level of innovation, cost effectiveness, high quality and faster time to market",
-      "Contribute to the overall strategy and manage complex issues within functional area of expertise",
-      "Serve as a Subject Matter Expert in Automation architecture",
-      "Collaborate with business and technical partners to identify and scope the opportunities, outline potential value and ROI, identify risks, benefits and constraints"
+      "Contribute to the overall strategy and manage complex issues within functional area of expertise"
     ]
   },
   {
@@ -49,9 +47,7 @@
     "bullets": [
       "Plan, create, and document processes for new platforms",
       "Evaluate and correct the integrity of existing systems",
-      "Plan, create, and implement automation between platforms",
       "Maintain and administer multiple platforms including products from Riverbed, CA Technologies, Infoblox, and Gigamon",
-      "Troubleshoot network and network device issues with routing and administration",
       "Implement data monitoring and collection equipment based on diagrams and run-books provided by architect"
     ]
   },
@@ -75,8 +71,7 @@
     "employment_date": "June 2014 – May 2016",
     "description": "The American Airlines Development Program for Technology (ADEPT) is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
     "bullets": [
-      "Deploy functional networks",
-      "Configure and install various network devices and services",
+      "Configure, install, and deploy various network devices and services for functional networks",
       "Maintain complete technical documentation",
       "Resolve issues that tiers of support have escalated",
       "Perform network maintenance and system upgrades"
@@ -86,6 +81,7 @@
     "company": "US Airways",
     "icon": "us-airways",
     "title": "Statistical Analyst Intern",
+    "class": "d-print-none",
     "employment_date": "July 2012 – June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
