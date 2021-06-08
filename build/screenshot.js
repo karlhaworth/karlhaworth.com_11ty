@@ -27,8 +27,8 @@ module.exports = function () {
     await page._client.send("Emulation.clearDeviceMetricsOverride");
     await page.screenshot({ path: "karl_haworth_resume.png" });
     await page.pdf({
-      // path: "./dist/assets/karl_haworth_resume.pdf",
-      path: "./src/assets/karl_haworth_resume.pdf",
+      path: "./dist/assets/karl_haworth_resume.pdf",
+      // path: "./src/assets/karl_haworth_resume.pdf",
       printBackground: true,
       format: "letter",
       margin: {
@@ -41,8 +41,8 @@ module.exports = function () {
 
     await browser.close();
 
-    // const readPdf = fs.readFileSync(`./dist/assets/karl_haworth_resume.pdf`);
-    const readPdf = fs.readFileSync(`./src/assets/karl_haworth_resume.pdf`);
+    const readPdf = fs.readFileSync(`./dist/assets/karl_haworth_resume.pdf`);
+    // const readPdf = fs.readFileSync(`./src/assets/karl_haworth_resume.pdf`);
     const pdfDoc = await PDFDocument.load(readPdf, {
       updateMetadata: true,
     });
@@ -52,8 +52,8 @@ module.exports = function () {
     pdfDoc.setSubject("Karl Haworth Resume");
     pdfDoc.setCreator("karlhaworth.com (https://karlhaworth.com)");
     const pdfBytes = await pdfDoc.save();
-    // fs.writeFileSync("./dist/assets/karl_haworth_resume.pdf", pdfBytes);
-    fs.writeFileSync("./src/assets/karl_haworth_resume.pdf", pdfBytes);
+    fs.writeFileSync("./dist/assets/karl_haworth_resume.pdf", pdfBytes);
+    // fs.writeFileSync("./src/assets/karl_haworth_resume.pdf", pdfBytes);
     console.log("Wrote PDF");
   })();
 };
