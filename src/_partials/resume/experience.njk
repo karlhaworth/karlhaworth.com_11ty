@@ -4,12 +4,12 @@
     </div>
     <div class="col-md-10">
         {% for experience in experience %}
-            <div itemscope itemtype="http://schema.org/Organization">
+            <div itemscope itemtype="http://schema.org/Organization" class="{{ experience.class }}">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <strong itemprop="jobTitle">{{ experience.title }}</strong>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <span class="badge badge-primary" itemprop="name">{{ experience.company }}<span class="icon-{{experience.icon}} pl-2 d-print-none"></span></span>
                     </div>
                     <div class="col-md-4 text-right">
