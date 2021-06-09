@@ -1,9 +1,9 @@
 [
   {
-    "name": "Infrastructure Orchestration Platform",
+    "name": "Networking and Firewall Orchestration Platform",
     "date": "April 2018 - June 2020",
-    "problem": "All requests for infrastructure are done though a ticketing system and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
-    "solution": "An orchestration platform for infrastructure requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
+    "problem": "All requests for networking are recorded very manually and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
+    "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
     "technology_utilized": [
       "Kubernetes",
       "HTML",
@@ -12,15 +12,13 @@
       "jQuery",
       "REST APIs",
       "Websockets",
-      "Gunicorn App Server",
+      "Gunicorn",
       "MySql",
-      "Linux Server",
-      "Docker Containers",
+      "Linux",
       "Jenkins CI/CD",
       "Active Directory",
       "Regular Expressions",
       "SNMP",
-      "SMTP",
       "Redis",
       "Celery",
       "RabbitMQ",
@@ -30,12 +28,10 @@
       "Nginx"
     ],
     "description_bullets": [
-      "Set out the integration strategy",
       "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
-      "Create a mechanism for continuous integration and continuous delivery (CI/CD)",
+      "Create a mechanism for continuous delivery (CD)",
       "Communicate with other stakeholders/end users in the software development lifecycle",
       "Work within a project management/agile delivery methodology in a leading role as part of a wider team",
-      "Create automated deployment mechanisms from code push",
       "Documentation of solutions (e.g. data models, configurations, and setup)",
       "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner",
       "Requirements Analysis and Solution Architecture Design"
