@@ -16,12 +16,12 @@
                         <span class="badge badge-secondary">{{ experience.employment_date }}</span >
                     </div>
                 </div>
-                <div class="row {{ 'd-none' if experience.oneliner }}">
+                <div class="row {{ 'd-print-none' if experience.oneliner }}">
                     <div class="col-md-12" itemprop="description">
                         {{ experience.description }}
                     </div>
                 </div>
-                <div class="row {{ 'd-none' if experience.oneliner }}">
+                <div class="row {{ 'd-print-none' if experience.oneliner }}">
                     <div class="col-md-12">
                         <ul class="m-0">
                             {% for bullet in experience.bullets %}
