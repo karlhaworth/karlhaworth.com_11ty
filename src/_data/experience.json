@@ -82,7 +82,7 @@
     "company": "US Airways",
     "icon": "us-airways",
     "title": "Statistical Analyst Intern",
-    "class": "d-print-none",
+    "oneliner": true,
     "employment_date": "July 2012 – June 2014",
     "description": "Assisted the Systems Engineering & Operations staff with support, analysis, and reporting.",
     "bullets": [
