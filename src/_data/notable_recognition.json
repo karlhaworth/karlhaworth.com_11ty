@@ -1,8 +1,8 @@
 [
   {
-    "date": "November 13, 2019",
+    "date": "July 1, 2021",
     "role": "Chief Information Officer (CIO), Executive Vice President (EVP)",
-    "comments": "Terrific work on Project 42 - I loved seeing the progress you've made. This will have a huge impact on how we work and I so appreciate all your hard work. Keep it up - you are making us all better."
+    "comments": "Just awesome.  I am so impressed with how you envisioned this future, quickly developed it, and flawlessly executed it by making it super easy for the product teams and holding their hands through the process. You all have moved our developer experience into the modern age!  Thanks and congratulations to the entire team."
   },
   {
     "date": "Feb 5, 2021",
@@ -10,9 +10,34 @@
     "comments": "I wanted to let you know that I was on a call for a Runway demo and discussion and was very impressed with  Karl. He has a great understanding of the platform and the technology of course, but his patience, and willingness to engage and even debate in a very productive and respectful manner was impressive."
   },
   {
+    "date": "June 30, 2021",
+    "role": "‪Director, Customer Technology Architecture",
+    "comments": "Thank you for taking the time to come and present at CT-TechEx last month (twice!) and sharing all the great stuff happening in Runway and Tower!The sessions with TnT are always really well received and it's always terrific content.Thanks"
+  },
+  {
     "date": "May 5, 2021",
     "role": "Director - Technology Transformation, Architecture Technology Fellow",
     "comments": "More awesome-ness from you ... this week (and earlier), with all the workshops, the OK8 work, and driving features in Runway are all tremendously valuable to both our tech direction, our culture, and getting more foundational tech in place for renewed trust in travel.Thank you for all the contributions across so many areas!#selfless"
+  },
+  {
+    "date": "July 2, 2021",
+    "role": "‪Sr Manager, IT",
+    "comments": "Thank you for leaning-in, embracing, owning and leading our teams on this journey. I appreciate all you do with #passion and #selfless focus"
+  },
+  {
+    "date": "June 30, 2021",
+    "role": "‪Director - Technology Transformation, Architecture Technology Fellow",
+    "comments": "You continue to drive great things within DevExp - for both the customer/developer experience as well as bringing out technology landscape to more modern engineering practices, delivery, and approach.Thank you!"
+  },
+  {
+    "date": "June 30, 2021",
+    "role": "‪Sr Principal Architect, IT Applications",
+    "comments": "Karl, Thank you for being that to answer any and all questions on runway, tower and many TnT topics. Your willingness to help out with various questions is very valuable for TechOps Products and teams. Looking forward to continued collaboration in the runway front!"
+  },
+  {
+    "date": "Sr Engineer, IT",
+    "role": "‪Sr Principal Architect, IT Applications",
+    "comments": "Thank you for all that you do to help DX be successful.And for always been open to answer questions and help without any judgment.#passion #accountable #selfless"
   },
   {
     "date": "June 28, 2021",
@@ -115,9 +140,9 @@
     "comments": "I attended the Interact Studio today and the 'Now' Project 42 team presented yielding amazing comments from the audience. I have a belief one of the key items I have learned about amazing leaders...it’s not necessarily what they did when they were there. The true testament of a leader is if the leaders principles live on for others to progress when the leader moves on. Great work my friend, 42 Thrives."
   },
   {
-    "date": "December, 2017",
-    "role": "Network Services Manager",
-    "comments": "Karl is an exceptional engineer! He is reliable, delivers quality work on time and takes on any challenge presented. He is dedicated and hard working and has become quite a star among the team! His peers look to him for support and guidance in his areas of expertise. Karl lead the Tools team to success by ensuring the Roadmap was completed and reviewed at a regular cadence. Thank you for all you do Karl!"
+    "date": "November 13, 2019",
+    "role": "Chief Information Officer (CIO), Executive Vice President (EVP)",
+    "comments": "Terrific work on Project 42 - I loved seeing the progress you've made. This will have a huge impact on how we work and I so appreciate all your hard work. Keep it up - you are making us all better."
   },
   {
     "date": "January, 2019",
@@ -128,16 +153,6 @@
     "date": "January, 2019",
     "role": "Network Architect Manager",
     "comments": "Karl consistently keeps ahead of the curve of developing technologies for his area of expertise, often leading others to solve security related issues with development tools."
-  },
-  {
-    "date": "June 20, 2017",
-    "role": "Network Engineering Manager",
-    "comments": "Working as a team for the H3C insourcing your automation solutions for migrating switches from HP(DXC) Managed to AA Managed has enabled the Network Engineering team to achieve the result of migrating 100 switches or more in a change. This type of automation never existed before, thank you for your long days and nights to enable this automation solution for the Airline."
-  },
-  {
-    "date": "December, 2017",
-    "role": "Network Services Manager",
-    "comments": "Karl has great scripting skills and leverages them to streamline work when applicable. As AA IT continues to drive toward more automation, Karl is the key resource on the Services team to assist in that growth."
   },
   {
     "date": "January, 2019",
@@ -200,8 +215,23 @@
     "comments": "Just wanted to say thanks for helping out with troubleshooting some major issues in the DataCenter and taking the time to get me the tools I needed. True team work mentality."
   },
   {
+    "date": "December, 2017",
+    "role": "Network Services Manager",
+    "comments": "Karl has great scripting skills and leverages them to streamline work when applicable. As AA IT continues to drive toward more automation, Karl is the key resource on the Services team to assist in that growth."
+  },
+  {
+    "date": "December, 2017",
+    "role": "Network Services Manager",
+    "comments": "Karl is an exceptional engineer! He is reliable, delivers quality work on time and takes on any challenge presented. He is dedicated and hard working and has become quite a star among the team! His peers look to him for support and guidance in his areas of expertise. Karl lead the Tools team to success by ensuring the Roadmap was completed and reviewed at a regular cadence. Thank you for all you do Karl!"
+  },
+  {
     "date": "November 28, 2017",
     "role": "Network Engineering Team Lead",
     "comments": "Thank you Karl for being the professional engineer that you are. I cannot count the number of times you have stopped what you were doing to assist network engineering with showing how to use a specific tools or recommending solutions to problems. You are an example to us all Karl. We look forward to hearing all the great things you will accomplish in the future."
+  },
+  {
+    "date": "June 20, 2017",
+    "role": "Network Engineering Manager",
+    "comments": "Working as a team for the H3C insourcing your automation solutions for migrating switches from HP(DXC) Managed to AA Managed has enabled the Network Engineering team to achieve the result of migrating 100 switches or more in a change. This type of automation never existed before, thank you for your long days and nights to enable this automation solution for the Airline."
   }
 ]
