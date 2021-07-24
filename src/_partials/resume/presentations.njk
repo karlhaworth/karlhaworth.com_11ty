@@ -6,7 +6,7 @@
         {% for presentation in public_presentations %}
             <div class="row">
                 <div class="col-md-9">
-                    <strong><a href="{{ presentation.link }}">{{ presentation.name }}</a></strong>
+                    <strong><a target="_blank" href="{{ presentation.link }}">{{ presentation.name }}</a></strong>
                 </div>
                 <div class="col-md-3 text-right">
                     <span class="badge badge-secondary">{{ presentation.date }}</span >
