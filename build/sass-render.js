@@ -1,12 +1,12 @@
 const sass = require("sass");
-const fibers = require("fibers");
+// const fibers = require("fibers");
 
 module.exports = (src, dest) => {
   return new Promise((resolve, reject) => {
     sass.render(
       {
         file: src,
-        fiber: fibers,
+        // fiber: fibers,
       },
       (error, result) => {
         if (error) reject(error);
