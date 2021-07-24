@@ -1,0 +1,24 @@
+<section class="row d-print-none">
+    <div class="col-md-2">
+        <h5>Presentations</h5>
+    </div>
+    <div class="col-md-10">
+        {% for presentation in public_presentations %}
+            <div class="row">
+                <div class="col-md-9">
+                    <strong><a href="{{ presentation.link }}">{{ presentation.name }}</a></strong>
+                </div>
+                <div class="col-md-3 text-right">
+                    <span class="badge badge-secondary">{{ presentation.date }}</span >
+                </div>
+            </div>
+            <div class="row pb-2">
+                <div class="col-md-12">
+                    <i>
+                        @ 
+                        {{ presentation.forum }}</i>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
