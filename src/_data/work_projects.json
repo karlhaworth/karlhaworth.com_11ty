@@ -1,5 +1,40 @@
 [
   {
+    "name": "Developer Experience Platform",
+    "date": "June 2020 - Present",
+    "problem": "Launching applications to the cloud is extremely difficult and time consuming for teams while requiring knowledge in multiple tochnology disciplies.",
+    "solution": "An InnerSourced developer platform along with an automated Kubernetes ecosystem was created for handling onboarding to our cloud environment with click to deploy with best practices was created reducing the time to deliver from months to minutes, eliminating an manual processes.",
+    "technology_utilized": [
+      "Kubernetes",
+      "Kubernetes Operators",
+      "Backstage.io",
+      "React",
+      "Typescript",
+      "GitHub Actions",
+      "Argo CD",
+      "Terraform",
+      "Helm",
+      "REST APIs",
+      "Postgres",
+      "Azure",
+      "Nginx",
+      "Kuma",
+      "Datadog",
+      "Artifactory"
+    ],
+    "description_bullets": [
+      "Plan, architect, implement, and manage a InnerSourced developer platform",
+      "Plan, architect, implement, automate, and manage a Kubernetes ecosystem being used by production customer facing airline systems",
+      "Serve as the Technical lead to a team of developers",
+      "Mentor new software developers within the direct product group as well as InnerSource contributors",
+      "Follow and maintain agile best practices",
+      "Requirements Analysis and Solution Architecture Design",
+      "Documentation of solutions",
+      "Abstract complex designs and implementations through a simple developer portal using various backend services",
+      "Communicate with other stakeholders/end users in the software development lifecycle"
+    ]
+  },
+  {
     "name": "Networking and Firewall Orchestration Platform",
     "date": "April 2018 - June 2020",
     "problem": "All requests for networking are recorded very manually and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
@@ -9,10 +44,8 @@
       "HTML",
       "CSS",
       "Python",
-      "jQuery",
       "REST APIs",
       "Websockets",
-      "Gunicorn",
       "MySql",
       "Linux",
       "Jenkins CI/CD",
@@ -20,21 +53,15 @@
       "Regular Expressions",
       "SNMP",
       "Redis",
-      "Celery",
       "RabbitMQ",
-      "S3 Object Storage",
-      "Cisco PnP",
-      "Nornir",
+      "Cisco Plug-n-Play",
       "Nginx"
     ],
     "description_bullets": [
       "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
-      "Create a mechanism for continuous delivery (CD)",
-      "Communicate with other stakeholders/end users in the software development lifecycle",
       "Work within a project management/agile delivery methodology in a leading role as part of a wider team",
       "Documentation of solutions (e.g. data models, configurations, and setup)",
       "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner",
-      "Requirements Analysis and Solution Architecture Design"
     ]
   },
   {
@@ -73,7 +100,6 @@
       "Automate migration workflow",
       "Optimize communication by implementing SNMP over SSH to reduce time to configure and reduce implementation failures",
       "Develop new capabilities in existing toolsets to communicate with newly acquired unsupported devices",
-      "Communicate regularly with management regarding status",
       "Work with platform administrators and engineering teams to implement and validate solutions"
     ]
   }
