@@ -60,11 +60,12 @@
       "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
       "Work within a project management/agile delivery methodology in a leading role as part of a wider team",
       "Documentation of solutions (e.g. data models, configurations, and setup)",
-      "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner",
+      "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner"
     ]
   },
   {
     "name": "H3C Firmware Upgrade Automation",
+    "skip_print": true,
     "date": "February 2019",
     "problem": "Engineers have to manually upgrade the firmware on H3C devices as they are unsupported by all enterprise tools.",
     "solution": "Create Perl script inside of CA Spectrum to push firmware with the expect module for an interactive automated session.",
