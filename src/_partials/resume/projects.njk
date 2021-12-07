@@ -4,38 +4,40 @@
     </div>
     <div class="col-md-10">
         {% for project in work_projects %}
-            <div class="row">
-                <div class="col-md-9">
-                    <strong>{{ project.name }}</strong>
+            <div class="{{ 'd-print-none' if project.skip_print }}">
+                <div class="row">
+                    <div class="col-md-9">
+                        <strong>{{ project.name }}</strong>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <span class="badge badge-secondary">{{ project.date }}</span>
+                    </div>
                 </div>
-                <div class="col-md-3 text-right">
-                    <span class="badge badge-secondary">{{ project.date }}</span>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="text-uppercase">Problem</div>
+                        <div class="ml-3">{{ project.problem }}</div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="text-uppercase">Solution</div>
+                        <div class="ml-3">{{ project.solution }}</div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-uppercase">Problem</div>
-                    <div class="ml-3">{{ project.problem }}</div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-uppercase">Solution</div>
-                    <div class="ml-3">{{ project.solution }}</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 technology_bullets">
-                    {% for technology in project.technology_utilized %}
-                        <span class="badge badge-light">{{ technology }}</span>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="row pb-3">
-                <div class="col-md-12">
-                    <ul class="m-0">
-                        {% for bullet in project.description_bullets %}
-                            <li>{{ bullet }}</li>
+                <div class="row">
+                    <div class="col-md-12 technology_bullets">
+                        {% for technology in project.technology_utilized %}
+                            <span class="badge badge-light">{{ technology }}</span>
                         {% endfor %}
-                    </ul>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-12">
+                        <ul class="m-0">
+                            {% for bullet in project.description_bullets %}
+                                <li>{{ bullet }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </div>
         {% endfor %}
