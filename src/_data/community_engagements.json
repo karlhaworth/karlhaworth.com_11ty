@@ -1,5 +1,11 @@
 [
     {
+        "name": "American Airlines Dev Experience Takes Off With Service Mesh",
+        "link": "https://konghq.com/blog/kuma-service-mesh-american-airlines/",
+        "date": "Jan 26, 2022",
+        "forum": "Kong Blog"
+    },
+    {
         "name": "Runway - The Developer Experience Product @ American Airlines",
         "link": "https://tech.aa.com/2021-12-21-runway-pt1/",
         "date": "Dec 21, 2021",
