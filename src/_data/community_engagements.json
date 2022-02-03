@@ -1,5 +1,11 @@
 [
     {
+        "name": "American Airlines - Developer Experience, part 2",
+        "link": "https://www.youtube.com/watch?app=desktop&v=Vt4SYSzgxsA",
+        "date": "Feb 2, 2022",
+        "forum": "Canton Coders"
+    },
+    {
         "name": "American Airlines Dev Experience Takes Off With Service Mesh",
         "link": "https://konghq.com/blog/kuma-service-mesh-american-airlines/",
         "date": "Jan 26, 2022",
