@@ -2,8 +2,22 @@
   {
     "company": "American Airlines",
     "icon": "american-airlines",
+    "title": "Product Technical Lead - Developer Experience, Principal Programmer, IT Applications",
+    "employment_date": "February 2022 – Present",
+    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using devops methodologies",
+    "bullets": [
+      "Develop overall strategic technical plan and create architecture plans for implementation based on identified solution gaps",
+      "Create solutions with high level of innovation, cost effectiveness, high quality and faster time to market",
+      "Contribute to the overall strategy and manage complex issues",
+      "Serve as a Subject Matter Expert in Automation architecture",
+      "Collaborate with business and technical partners to identify and scope the opportunities, outline potential value and ROI, identify risks, benefits and constraints"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "icon": "american-airlines",
     "title": "Product Technical Lead - Developer Experience, Principal Engineer, IT DevOps",
-    "employment_date": "January 2021 – Present",
+    "employment_date": "January 2021 – February 2022",
     "description": "Worked in the Delivery Transformation organization architecting solutions for automation using devops methodologies",
     "bullets": [
       "Develop overall strategic technical plan and create architecture plans for implementation based on identified solution gaps",
@@ -56,6 +70,7 @@
     "company": "American Airlines",
     "icon": "american-airlines",
     "title": "IT Infrastructure Engineer",
+    "oneliner": true,
     "employment_date": "June 2016 – January 2018",
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets.",
     "bullets": [
@@ -69,6 +84,7 @@
     "company": "American Airlines",
     "icon": "american-airlines",
     "title": "Associate IT Infrastructure Engineer (ADEPT)",
+    "oneliner": true,
     "employment_date": "June 2014 – May 2016",
     "description": "The American Airlines Development Program for Technology (ADEPT) is a college recruiting program created to develop a technical talent pipeline for Information Technology(IT).",
     "bullets": [
