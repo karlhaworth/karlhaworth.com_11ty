@@ -1,9 +1,9 @@
 [
   {
-    "name": "Developer Experience Platform",
+    "name": "Developer Experience Platform - Runway",
     "date": "June 2020 - Present",
-    "problem": "Launching applications to the cloud is extremely difficult and time consuming for teams while requiring knowledge in multiple tochnology disciplies.",
-    "solution": "An InnerSourced developer platform along with an automated Kubernetes ecosystem was created for handling onboarding to our cloud environment with click to deploy with best practices was created reducing the time to deliver from months to minutes, eliminating an manual processes.",
+    "problem": "Launching applications to the cloud is extremely difficult and time consuming for teams while requiring knowledge in multiple technology disciplies.",
+    "solution": "An InnerSourced developer platform along with an automated Kubernetes ecosystem was created for handling onboarding to our cloud environment with click to deploy reducing the time to deliver from months to minutes, eliminating an manual processes.",
     "technology_utilized": [
       "Kubernetes",
       "Kubernetes Operators",
@@ -23,20 +23,20 @@
       "Artifactory"
     ],
     "description_bullets": [
-      "Plan, architect, implement, and manage a InnerSourced developer platform",
-      "Plan, architect, implement, automate, and manage a Kubernetes ecosystem being used by production customer facing airline systems",
-      "Serve as the Technical lead to a team of developers",
-      "Mentor new software developers within the direct product group as well as InnerSource contributors",
-      "Follow and maintain agile best practices",
+      "Planned, architected, implemented, and managed a InnerSourced developer platform",
+      "Planned, architected, implemented, automated, and managed a Kubernetes ecosystem being used by production customer facing airline systems",
+      "Served as the technical lead to a team of developers",
+      "Mentored new software developers within the direct product group as well as InnerSource contributors",
+      "Followed and maintain agile best practices",
       "Requirements analysis and solution architecture design",
-      "Abstract complex designs and implementations through a simple developer portal using various backend services",
-      "Communicate with other stakeholders/end users in the software development lifecycle"
+      "Abstracted complex designs and implementations through a simple developer portal using various backend services",
+      "Communicated with other stakeholders and end users in the software development lifecycle"
     ]
   },
   {
     "name": "Networking and Firewall Orchestration Platform",
     "date": "April 2018 - June 2020",
-    "problem": "All requests for networking are recorded very manually and then multiple administrators manually perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
+    "problem": "All requests for networking are recorded manually and then multiple administrators perform the required task hours or days later, in multiple platforms creating a long lag in the time to delivery.",
     "solution": "An orchestration platform for networking requests was created that is secure with enterprise authentication, fully logged, provides an attractive and easy to use interface, and reduces the time to delivery through APIs and automation while standardizing and creating relationships among infrastructure objects.",
     "technology_utilized": [
       "Kubernetes",
@@ -57,10 +57,10 @@
       "Nginx"
     ],
     "description_bullets": [
-      "Define, implement, and manage the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
-      "Work within a project management/agile delivery methodology in a leading role as part of a wider team",
-      "Documentation of solutions (e.g. data models, configurations, and setup)",
-      "Ensure that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner"
+      "Defined, implemented, and managed the development architecture and supporting toolsets required to build and test complex applications in an efficient and rapid manner",
+      "Worked within a project management/agile delivery methodology in a leading role as part of a wider team",
+      "Documentated of solutions (e.g. data models, configurations, and setup)",
+      "Ensured that platforms and data solutions can be deployed and operated in a highly repeatable and predictable manner"
     ]
   },
   {
@@ -78,8 +78,8 @@
     ],
     "description_bullets": [
       "Set out the integration strategy",
-      "Define technical designs",
-      "Communicate with other stakeholders/end users in the software development lifecycle",
+      "Defined technical designs",
+      "Communicated with other stakeholders/end users in the software development lifecycle",
       "Requirements Analysis and Solution Architecture Design"
     ]
   },
