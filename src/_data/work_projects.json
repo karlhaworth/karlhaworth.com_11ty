@@ -84,7 +84,7 @@
     ]
   },
   {
-    "name": "Network Device Insourcing Automation",
+    "name": "Network Device insourcing Automation",
     "date": "March 2016 - June 2016",
     "problem": "Migrate thousands of devices from an outsourced vendor to insourced.",
     "solution": "Created a plan of migrating devices via SNMP TRAP and using SNMP to rapidly rewrite device configurations in bulk.",
