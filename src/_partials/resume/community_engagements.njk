@@ -6,17 +6,10 @@
         {% for presentation in community_engagements %}
             <div class="row">
                 <div class="col-md-9">
-                    <strong><a target="_blank" href="{{ presentation.link }}">{{ presentation.name }}</a></strong>
+                    <strong><a target="_blank" href="{{ presentation.link }}">{{ presentation.name }}</a> - {{ presentation.forum }}</strong>
                 </div>
                 <div class="col-md-3 text-right">
                     <span class="badge badge-secondary">{{ presentation.date }}</span >
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <i>
-                        @ 
-                        {{ presentation.forum }}</i>
                 </div>
             </div>
         {% endfor %}

@@ -4,12 +4,13 @@
     "icon": "american-airlines",
     "title": "Product Technical Lead - Developer Experience, Principal Programmer, IT DevOps/Applications",
     "employment_date": "January 2021 – Present",
-    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using devops methodologies",
+    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
     "bullets": [
-      "Developed overall strategic technical plan and created architecture plans for implementation based on identified solution gaps",
+      "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
+      "Mentored numerous developers in their journey from infrastructure engineering to software development",
       "Created solutions with high level of innovation, cost effectiveness, high quality, and faster time to market",
-      "Contributed to the overall strategy and manage complex issues",
-      "Served as a Subject Matter Expert in Automation architecture",
+      "Developed the overall automation strategy and managed complex integrations between multiple teams",
+      "Served as a subject matter expert in automation architecture",
       "Collaborated with business and technical partners to identify and scope the opportunities, outline potential value and ROI, identify risks, benefits and constraints"
     ]
   },
@@ -22,7 +23,7 @@
     "bullets": [
       "Created architecture proposals based on identified solution gaps",
       "Created solutions with high level of innovation, cost effectiveness, high quality, and faster time to market",
-      "Contributed to the overall strategy and manage complex issues within functional area of expertise",
+      "Contributed to the overall strategy and managed complex issues within functional area of expertise",
       "Worked with developers across the company to implement their solutions into an InnerSourced framework"
     ]
   },
@@ -31,12 +32,12 @@
     "icon": "american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 – June 2020",
-    "description": "Worked in the Enterprise Network Automation organization architecting solutions for automation using devops methodologies",
+    "description": "Worked in the Enterprise Network automation organization architecting solutions for automation using devops methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture proposals based on identified solution gaps",
-      "Created solutions with high level of innovation, cost effectiveness, high quality, and faster time to market",
-      "Contributed to the overall strategy and manage complex issues within functional area of expertise",
-      "Served as a Subject Matter Expert in Automation architecture"
+      "Developed overall strategic technical plans and created architecture proposals related to a networking automation portal",
+      "Created solutions with high level of innovation, cost effectiveness, and faster time to market",
+      "Contributed to the overall strategy and managed complex issues within networking automation",
+      "Served as a subject matter expert in network automation architecture"
     ]
   },
   {
@@ -44,7 +45,7 @@
     "icon": "american-airlines",
     "title": "Senior IT Infrastructure Engineer",
     "employment_date": "January 2018 – June 2019",
-    "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets.",
+    "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets",
     "bullets": [
       "Planned, created, and documented processes for new platforms",
       "Evaluated and corrected the integrity of existing systems",
@@ -57,7 +58,7 @@
     "icon": "american-airlines",
     "title": "IT Infrastructure Engineer",
     "employment_date": "June 2016 – January 2018",
-    "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets.",
+    "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
       "Planned, created, and documented processes for existing platforms",
