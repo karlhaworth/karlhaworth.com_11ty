@@ -2,8 +2,23 @@
   {
     "company": "American Airlines",
     "icon": "american-airlines",
-    "title": "Product Technical Lead - Developer Experience, Principal Programmer, IT DevOps/Applications",
-    "employment_date": "January 2021 – Present",
+    "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, IT DevOps/Applications",
+    "employment_date": "June 2022 – Present",
+    "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
+    "bullets": [
+      "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
+      "Mentored numerous developers in their journey from infrastructure engineering to software development",
+      "Created solutions with high level of innovation, cost effectiveness, high quality, and faster time to market",
+      "Developed the overall automation strategy and managed complex integrations between multiple teams",
+      "Served as a subject matter expert in automation architecture",
+      "Collaborated with business and technical partners to identify and scope the opportunities, outline potential value and ROI, identify risks, benefits and constraints"
+    ]
+  },
+  {
+    "company": "American Airlines",
+    "icon": "american-airlines",
+    "title": "Principal Programmer, Product Technical Lead - Developer Experience, IT DevOps/Applications",
+    "employment_date": "January 2021 – June 2022",
     "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
@@ -45,6 +60,7 @@
     "icon": "american-airlines",
     "title": "Senior IT Infrastructure Engineer",
     "employment_date": "January 2018 – June 2019",
+    "oneliner": true,
     "description": "Worked in the Enterprise Network Services department deploying, optimizing, and creating engineering toolsets",
     "bullets": [
       "Planned, created, and documented processes for new platforms",
@@ -58,6 +74,7 @@
     "icon": "american-airlines",
     "title": "IT Infrastructure Engineer",
     "employment_date": "June 2016 – January 2018",
+    "oneliner": true,
     "description": "Worked in the Enterprise Network Services department with network and application performance monitoring toolsets",
     "bullets": [
       "Implemented data monitoring and collection equipment based on diagrams and run-books provided by architect",
