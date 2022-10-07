@@ -1,25 +1,27 @@
 <section class="row">
     <div class="col-md-2">
-        <h5>Awards</h5>
+        <h5 id="awards">Awards</h5>
     </div>
     <div class="col-md-10">
         {% for recognition in awards %}
-            <div class="row">
-                <div class="col-md-12">
-                    <strong>{{ recognition.awardName }}</strong>
+            <div class="row {{ 'd-print-none' if recognition.hide }}">
+                <div class="row">
+                    <div class="col-md-12">
+                        <strong>{{ recognition.awardName }}</strong>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    {{ recognition.description }}
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ recognition.description }}
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <i>- {{ recognition.presentedBy }}</i>
-                </div>
-                <div class="col-md-3 text-right">
-                    <span class="badge badge-secondary">{{ recognition.date }}</span>
+                <div class="row">
+                    <div class="col-md-9">
+                        <i>- {{ recognition.presentedBy }}</i>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <span class="badge badge-secondary">{{ recognition.date }}</span>
+                    </div>
                 </div>
             </div>
         {% endfor %}

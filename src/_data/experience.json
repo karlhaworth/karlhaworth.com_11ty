@@ -47,6 +47,7 @@
     "icon": "american-airlines",
     "title": "Network Automation Engineer",
     "employment_date": "June 2019 – June 2020",
+    "oneliner": true,
     "description": "Worked in the Enterprise Network automation organization architecting solutions for automation using devops methodologies",
     "bullets": [
       "Developed overall strategic technical plans and created architecture proposals related to a networking automation portal",
