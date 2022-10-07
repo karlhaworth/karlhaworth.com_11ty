@@ -6,7 +6,7 @@ const { PDFDocument, StandardFonts } = require("pdf-lib");
 module.exports = function () {
   (async () => {
     const browser = await puppeteer.launch({
-      executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium',
+      // executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium',
       args: [
         "--window-size=1280,800",
         '--disable-gpu',
