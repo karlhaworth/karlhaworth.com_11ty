@@ -2,12 +2,12 @@
   {
     "company": "American Airlines",
     "icon": "american-airlines",
-    "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, IT DevOps/Applications",
+    "title": "Senior Principal Developer, Product Technical Lead - Developer Experience, Product Agility",
     "employment_date": "June 2022 – Present",
     "description": "Worked in the Delivery Transformation organization architecting solutions for automation using DevOps methodologies",
     "bullets": [
-      "Developed overall strategic technical plans and created architecture strategy for a developer portal used across all American Airlines information technology",
-      "Mentored numerous developers in their journey from infrastructure engineering to software development",
+      "Developed overall strategic technical plans and created architecture strategy for shared Kubernetes clusters for enterprise use",
+      "Mentored, guided, and supported developers across American Airlines IT",
       "Created solutions with high level of innovation, cost effectiveness, high quality, and faster time to market",
       "Developed the overall automation strategy and managed complex integrations between multiple teams",
       "Served as a subject matter expert in automation architecture",
