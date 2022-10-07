@@ -1,5 +1,17 @@
 [
     {
+        "name": "Mentor",
+        "link": "https://www.northwested.org/career_tech/programs/engineering-academy/",
+        "date": "Oct 1, 2021 - Present",
+        "forum": "Engineering Academy"
+    },
+    {
+        "name": "Engineering Academy Guidance Board Member",
+        "link": "https://www.northwested.org/career_tech/programs/engineering-academy/",
+        "date": "Oct 1, 2021 - Present",
+        "forum": "Engineering Academy"
+    },
+    {
         "name": "Batteries included: Developer Experience at American Airlines",
         "link": "https://www.youtube.com/watch?v=MU5TbNGTBO4",
         "date": "May 10, 2022",
@@ -22,18 +34,6 @@
         "link": "https://tech.aa.com/2021-12-21-runway-pt1/",
         "date": "Dec 21, 2021",
         "forum": "American Airlines Tech Blog"
-    },
-    {
-        "name": "Mentor",
-        "link": "https://www.northwested.org/career_tech/programs/engineering-academy/",
-        "date": "Oct 1, 2021 - Present",
-        "forum": "Engineering Academy"
-    },
-    {
-        "name": "Engineering Academy Guidance Board Member",
-        "link": "https://www.northwested.org/career_tech/programs/engineering-academy/",
-        "date": "Oct 1, 2021 - Present",
-        "forum": "Engineering Academy"
     },
     {
         "name": "Kuma Service Mesh and Backstage.io at American Airlines",
